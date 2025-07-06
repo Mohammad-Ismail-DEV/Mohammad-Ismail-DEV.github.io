@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mohamad Ismail - Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <main>
+        <!-- Hero Section -->
+        <section class="text-center mb-12">
+            <div class="hero-header">
+                <h1 class="mb-2" style="margin: 0;">Mohamad Ismail</h1>
+                <button id="theme-toggle" aria-label="Toggle dark mode" class="theme-toggle">
+                    <img id="theme-icon" src="https://img.icons8.com/ios-glyphs/30/000000/sun--v1.png"
+                        alt="Toggle theme" class="toggle-image" />
+                </button>
+            </div>
+
+            <p class="text-lg mb-1">Software Engineer</p>
+            <p class="text-md text-gray-600">Specialized in React, Node.js, AWS &amp; Flutter</p>
+            <div class="flex flex-center gap-4 mt-4">
+                <a href="/assets/documents/Mohamad_Ismail_CV.pdf" class="btn" download="Mohamad_Ismail_CV.pdf">Download
+                    CV</a>
+                <a href="mailto:mohamad.ismail.dev@gmail.com" class="btn btn-outline">Contact Me</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="mb-12">
+            <h2>About Me</h2>
+            <p>
+                I'm a software developer based in Beirut, Lebanon, with experience building web and mobile apps using
+                React, Ionic, Node.js, AWS and Flutter. I’ve worked on scalable tools for audio/image analysis and
+                full-featured delivery and admin platforms. I also hold dual bachelor’s degrees in Computer Science and
+                Mechanical Engineering.
+            </p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="mb-12">
+            <h2 class="mb-4">Projects</h2>
+            <div class="grid md-grid-cols-2 gap-6 mb-8">
+                <div class="card">
+                    <h3>Audio Fingerprinting &amp; Matching</h3>
+                    <p class="text-sm text-gray-600">Python, AWS EC2, CUDA</p>
+                    <p>High-performance audio fingerprinting system to detect duplicate audio across large datasets.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Talabetak Driver App</h3>
+                    <p class="text-sm text-gray-600">Angular, Ionic</p>
+                    <p>Delivery tracking app for drivers with live location updates and job management features.</p>
+                </div>
+
+                <div class="card">
+                    <h3>A&amp;H Admin Dashboard</h3>
+                    <p class="text-sm text-gray-600">React, Ionic, JWT</p>
+                    <p>Admin dashboard with product, inventory, and analytics tools for e-commerce platforms.</p>
+                </div>
+            </div>
+
+            <!-- Personal Projects Subsection -->
+            <h2 class="mb-4">Personal Projects</h2>
+            <div class="grid md-grid-cols-2 gap-6">
+                <div class="card">
+                    <h3>Cedar Roots</h3>
+                    <p class="text-sm text-gray-600">Flutter, Node.js, WebSockets, Firebase, JWT</p>
+                    <p>
+                        A social media app focused on volunteering and community building with:
+                    <ul>
+                        <li>Real-time chat with WebSocket-based live messaging</li>
+                        <li>Push notifications powered by Firebase Cloud Messaging</li>
+                        <li>JWT authentication with role-specific UI rendering</li>
+                        <li>User profiles, posts, and user connections for networking</li>
+                    </ul>
+                    </p>
+                    <div class="flex gap-3 mt-3">
+                        <a href="https://github.com/Mohammad-Ismail-DEV/cedar_roots" target="_blank"
+                            rel="noopener noreferrer">Frontend Repo</a>
+                        <a href="https://github.com/Mohammad-Ismail-DEV/cedar_roots_backend" target="_blank"
+                            rel="noopener noreferrer">Backend Repo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="mb-12">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <span><img src="https://img.icons8.com/color/24/javascript.png" alt="JS"> JavaScript</span>
+                <span><img src="https://img.icons8.com/color/24/react-native.png" alt="React"> React</span>
+                <span><img src="https://img.icons8.com/color/24/python--v1.png" alt="Python"> Python</span>
+                <span><img src="https://img.icons8.com/color/24/nodejs.png" alt="Node.js"> Node.js</span>
+                <span><img src="https://img.icons8.com/color/24/flutter.png" alt="Flutter"> Flutter</span>
+                <span><img src="https://img.icons8.com/color/24/ionic.png" alt="Ionic"> Ionic</span>
+                <span><img src="https://img.icons8.com/color/24/typescript.png" alt="TypeScript"> TypeScript</span>
+                <span><img src="https://img.icons8.com/color/24/mysql-logo.png" alt="MySQL"> MySQL</span>
+                <span><img src="https://img.icons8.com/color/24/amazon-web-services.png" alt="AWS EC2"> AWS EC2</span>
+                <span><img src="https://img.icons8.com/ios-filled/24/ffffff/laravel.png" alt="Laravel"> Laravel</span>
+                <span><img src="https://img.icons8.com/color/24/html-5--v1.png" alt="HTML/CSS"> HTML/CSS</span>
+                <span><img src="https://img.icons8.com/ios-filled/24/api-settings.png" alt="REST APIs"> REST APIs</span>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="mb-12">
+            <h2>Contact</h2>
+            <div class="flex flex-col gap-2 text-gray-700">
+                <div class="contact-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="svg" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3 8l7.89 5.26a2 2 0 0 0 2.22 0L21 8m0 8V8a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2z" />
+                    </svg>
+                    <a href="mailto:mohamad.ismail.dev@gmail.com">mohamad.ismail.dev@gmail.com</a>
+                </div>
+                <div class="contact-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2"
+                        viewBox="0 0 24 24" class="icon" aria-hidden="true" focusable="false" class="svg">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M16 8a6 6 0 016 6v6h-4v-6a2 2 0 00-4 0v6h-4v-6a6 6 0 016-6z" />
+                        <rect width="4" height="12" x="2" y="9" rx="1" />
+                        <circle cx="4" cy="4" r="2" />
+                    </svg>
+                    <a href="https://linkedin.com/in/Mohamad-Ismail0" target="_blank"
+                        rel="noopener noreferrer">LinkedIn</a>
+                </div>
+                <div class="location">
+                    📍 Beirut, Lebanon
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
