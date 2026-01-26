@@ -235,7 +235,7 @@ const App: React.FC = () => {
               <motion.a
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                href="assets/documents/Mohamad_Ismail_CV.pdf"
+                href={`${BACKEND_URL}/api/cv`}
                 download
                 className="border border-slate-300 dark:border-slate-700 px-8 py-3 rounded-xl font-semibold hover:bg-slate-100 dark:hover:bg-slate-800 transition-all flex items-center gap-2"
               >
