@@ -70,7 +70,7 @@ const App: React.FC = () => {
    * DEPLOYMENT TIP:
    * Replace this with your actual backend URL (e.g., AWS Public IP or Domain).
    */
-  const BACKEND_URL = "http://51.20.253.125:5000"; // Ensure this matches your running server
+  const BACKEND_URL = "https://conoidally-nondefeasible-levi.ngrok-free.dev"; // Ensure this matches your running server
   const CONTACT_API_URL = `${BACKEND_URL}/api/contact`;
   const AI_API_URL = `${BACKEND_URL}/api/ai`;
 
