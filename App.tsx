@@ -18,7 +18,6 @@ import {
   CheckCircle2,
   Loader2,
   AlertCircle,
-  ExternalLink,
   Code2,
 } from "lucide-react";
 import {
@@ -179,14 +178,14 @@ const App: React.FC = () => {
         <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-indigo-500/10 rounded-full blur-[120px]" />
       </div>
 
-      <nav className="fixed top-0 w-full z-50 glass px-6 py-4 flex justify-between items-center transition-all">
-        <motion.div
+      <nav className="fixed top-0 w-full z-50 glass px-6 py-4 flex justify-end items-center transition-all right">
+        {/* <motion.div
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           className="text-xl font-bold tracking-tight gradient-text"
         >
           MI.dev
-        </motion.div>
+        </motion.div> */}
         <div className="flex items-center gap-6">
           <button
             onClick={toggleTheme}
