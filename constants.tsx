@@ -127,11 +127,11 @@ export const SKILLS: Skill[] = [
   },
   {
     name: "AWS",
-    icon: "https://img.icons8.com/color/48/amazon-web-services.png",
+    icon: "https://img.icons8.com/nolan/48/amazon-web-services.png",
   },
   {
     name: "Laravel",
-    icon: "https://img.icons8.com/ios-filled/48/ffffff/laravel.png",
+    icon: "https://img.icons8.com/fluency/48/laravel.png",
   },
   { name: "PHP", icon: "https://img.icons8.com/officel/48/php-logo.png" },
   {
